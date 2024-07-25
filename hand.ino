@@ -26,10 +26,8 @@ void loop() {
     {
       if (c[i+1]=='1') {
         finger[i].write(0);
-        // delay(500);
       } else {
         finger[i].write(180);
-        // delay(500);
       }
     }
   }
